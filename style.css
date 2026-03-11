@@ -1,0 +1,87 @@
+body{
+    margin:0;
+    font-family: Arial;
+    background:#f3f3f3;
+}
+
+/* HERO IMAGE */
+.hero{
+    height:60vh;
+    width: 97vw;
+    margin: 3vh auto 0 auto; /* top:10vh, left/right:auto, bottom:0 */
+    background-image:url("Image/phc2.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+    border-radius: 15px;
+}
+
+.hero h1{
+    height:35vh;
+    font-size:50px;
+}
+
+.hero h2{
+    font-size:30px;
+}
+
+/* CARDS */
+.container{
+    display:flex;
+    justify-content:center;
+    gap:0px;
+    margin-top:-170px;
+}
+
+/* For Video card */
+
+.video-card{
+    height:65vh;
+    width:600px;
+    background:white;
+    border-radius:10px;
+    text-align:center;
+    overflow:hidden; /* ensures video follows rounded corners */
+}
+
+.video-card video{
+    width:100%;
+    height: 45vh;
+    display:block;
+    border-radius: 10px;
+}
+
+/* SINGLE CARD */
+.card{
+    height: 40vh;
+    width:250px;
+    margin: 3vh;
+    background:white;
+    border-radius:12px;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* ICONS */
+.icon{
+    width:200px;
+}
+
+.footer{
+    background:rgba(239, 233, 233, 0.997);
+    width: 93vw;
+    margin: auto;
+    border-radius:12px;
+    padding:5px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0, 0, 0, 0.153);
+
+}
+.footer span{
+    font-weight: 600;
+}
